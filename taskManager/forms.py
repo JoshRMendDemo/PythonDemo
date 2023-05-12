@@ -23,7 +23,6 @@ def get_my_choices_users():
     """ Retrieves a list of all users in the system
         for the user management page
     """
-    console.log("PYTHON!!")
     user_list = User.objects.order_by('date_joined')
     user_tuple = []
     counter = 1
